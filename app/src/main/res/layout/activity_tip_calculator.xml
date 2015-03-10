@@ -12,8 +12,8 @@
         android:id="@+id/txtBillAmount"
         android:text="Bill Amount"
         android:layout_alignBottom="@+id/edtBillAmount"
-        android:layout_toRightOf="@+id/txtTipResult"
-        android:layout_toEndOf="@+id/txtTipResult" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <EditText
         android:layout_width="wrap_content"
